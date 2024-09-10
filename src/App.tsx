@@ -11,7 +11,7 @@ import {
   Toolbar,
   Typography
 } from '@mui/material';
-import { Close as CloseIcon } from '@mui/icons-material';
+import CloseIcon from '@mui/icons-material/Close';
 
 export default function App() {
   const [open, setOpen] = useState(false);
